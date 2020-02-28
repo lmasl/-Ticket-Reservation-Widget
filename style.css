@@ -87,7 +87,6 @@ div, span, p, ol, ul, li, table, tbody, tfoot, thead, tr, th, td{
 .twidget-tab-links ul li#twidget-hotel-li a:before{background-image:url(./images/bed.png); background-size:auto 20px;}
 .twidget-tab-links a{color:#fff; font-size:16px; font-weight:600; display:block; text-transform:uppercase; padding:0 20px 0 50px; line-height:51px;}
 
-/*tab content*/
 .twidget-tab-content{padding:20px; background-color:#85a8b17c; border-radius:0 3px 3px 3px; }
 .twidget-tab-content input[type="text"]{line-height:50px; height:50px; padding: 0 37px 0 12px; overflow: hidden; text-overflow: ellipsis;}
 .twidget-tab-content .twidget-tab{display:none;}
@@ -110,7 +109,7 @@ div, span, p, ol, ul, li, table, tbody, tfoot, thead, tr, th, td{
 #twidget-tab1 .twidget-form-list li.twidget-passengers{width:13%;}
 #twidget-tab1 .twidget-form-list li.twidget-submit-button{width:18%;}
 .twidget-form-list li .twidget-input-box input{width:100%; border:1px solid #fff;}
-.twidget-form-list li .twidget-input-box input:focus{border-color:#fdd835;}
+.twidget-form-list li .twidget-input-box input:focus{border-color:#09ac09;}
 .twidget-form-list li .twidget-input-box label, .twidget-passengers label, .twidget-hotel-guest label {color: white; position: relative; top: -4px; font-size: 12px; display: block;}
 .twidget-form-list li button{ height: 50px; margin-top: 12px; line-height:50px; text-align:center; width:100%; text-transform:uppercase; background-color:#ffa600; color:#fff; }
 .twidget-form-list li.input-daterange > div{float:left; width:50%; }
@@ -163,7 +162,6 @@ div, span, p, ol, ul, li, table, tbody, tfoot, thead, tr, th, td{
 .datepicker table tr td.range { background-color: #f5f5f5;}
 .datepicker table tr td.active:active:hover, .datepicker table tr td.active.highlighted:active:hover, .datepicker table tr td.active.active:hover, .datepicker table tr td.active.highlighted.active:hover, .datepicker table tr td.active:active:focus, .datepicker table tr td.active.highlighted:active:focus, .datepicker table tr td.active.active:focus, .datepicker table tr td.active.highlighted.active:focus, .datepicker table tr td.active:active.focus, .datepicker table tr td.active.highlighted:active.focus, .datepicker table tr td.active.active.focus, .datepicker table tr td.active.highlighted.active.focus { background-color: #00B9FF;}
 .datepicker-cancel-return-date {color: #ffaf1a!important; position: absolute; display: block!important; margin-top: 0; left: 43px; width: 160px!important; line-height: 17px; border: 1px solid #ffa600!important; border-radius: 40px!important; text-align: center!important; font-size: 11px; cursor: pointer;}
-/*passenger slection*/
 #twidget-passenger-form, #twidget-guest-form{position:absolute; left:0; top:51px; width:270px; padding-top:7px; background:#fff; box-shadow:0 0 15px 0 rgba(0,0,0,0.3); z-index:999;}
 .twidget-age-group{display:table; width:100%;}
 .twidget-age-group li{display:table-row;}
