@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Ticket Reservation Widget</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/reset.css">
+    <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/css/bootstrap-datepicker3.standalone.css">
+    <link rel="stylesheet" type="text/css" href="./style.css?v_1207">
+   <link rel="stylesheet" href="style/main.css">
+   <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="js/jquery.twidget.js?v_1207"></script>
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+</head>
+<body style="margin: 0;">
+  <div class=container>
+    <header>
+      
+       
+    </header>
+  
+<div class="twidget-container" id="twidget"></div>
+<br><br>
+<script>
+        $('#twidget').twidget({
+            locale: 'ru',
+            marker: 78606,
+            open_in_new_tab: false,
+            default_origin: 'SVO',
+            default_destination: 'ekat',
+            default_hotel_location: 'rio'
+            
+        });
+
+</script>
+
+
+  <div class="footer">
+    <div class="block">
+        <p>© 2020 Lisa Maslovskaya</p>
+    </div>
+</div>
+
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.0/gsap.min.js"></script>
+    
+    
+</body>
+</html>
